@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+    <title>Checkboxe inside Select Option</title>
+</head>
+<body>
+    <div class="multiselect">
+        <div class="selectBox" onclick="showCheckboxes()">
+            <select>
+                <option> Selecione uma opção</option>
+            </select>
+            <div class="overSelect"></div>
+        </div>
+        <div id="checkboxes">
+            <label for="one"><input type="checkbox">Texto 1</label>
+            <label for="two"><input type="checkbox">Texto 2</label>
+            <label for="three"><input type="checkbox">Texto 3</label>
+        </div>
+    </div>
+</body>
+</html>
